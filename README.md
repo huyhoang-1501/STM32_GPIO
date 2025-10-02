@@ -1,4 +1,3 @@
-readme_content = """
 # STM32F103 GPIO Blink LED Project
 
 ## Giới thiệu
