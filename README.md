@@ -1,15 +1,15 @@
 # STM32F103 GPIO Blink LED Project
 
-## Giới thiệu
-Project này là một ví dụ đơn giản về cách điều khiển LED nháy (blink) trên vi điều khiển STM32F103C8T6/R6 sử dụng **register-level programming** (không dùng thư viện SPL để tránh lỗi compatibility). Code config GPIO PC13 làm output push-pull, set clock HSI 8MHz, và toggle LED active high (high = sáng).
+## Introduction:
+This project is a simple example of how to control a blinking LED on the STM32F103C8T6/R6 microcontroller using register-level programming (without using the SPL library to avoid compatibility issues). The code configures GPIO PC13 as a push-pull output, sets the clock to HSI 8MHz, and toggles the LED in active-high mode (high = on).
 
-- **Mục đích**: Học cơ bản GPIO, clock config, delay loop trên STM32F1xx.
-- **Công cụ**: Keil uVision (MDK-ARM), Proteus (simulate).
-- **Hardware**: STM32F103C8T6 (Blue Pill hoặc tương tự), LED + resistor 330Ω nối PC13.
+- **Purpose**: Learn basic GPIO, clock configuration, and delay loops on STM32F1xx.
+- **Tools**: Keil uVision (MDK-ARM), Proteus (for simulation).
+- **Hardware**: STM32F103C8, LED + 330Ω resistor connected to PC13.
 
-## Yêu cầu
-- **Phần mềm**:
-  - Keil uVision 5.x (với STM32F1xx DFP pack, version 2.4.1+).
-  - Proteus 8.x (để simulate).
-- **Hardware (tùy chọn)**: Board STM32F103C8T6 + ST-LINK để flash thật.
-- **Kiến thức**: Cơ bản C, embedded systems.
+## Requirements
+- **Software**:
+  - Keil uVision 5.x (with STM32F1xx DFP pack, version 2.4.1+).
+  - Proteus 8.x (for simulate).
+- **Hardware (optional)**: STM32F103C8T6 board + ST-LINK for real flashing.
+- **Knowledge**: Basic C, embedded systems, bare-metal.
