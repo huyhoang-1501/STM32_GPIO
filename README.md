@@ -1,4 +1,8 @@
-# STM32F103 GPIO Blink LED Project
+<div align="center">
+  <h1> STM32F103 GPIO Blink LED Project</h1>
+</div>
+<br>
+
 
 ## Introduction:
 This project is a simple example of how to control a blinking LED on the STM32F103C8T6/R6 microcontroller using register-level programming (without using the SPL library to avoid compatibility issues). The code configures GPIO PC13 as a push-pull output, sets the clock to HSI 8MHz, and toggles the LED in active-high mode (high = on).
